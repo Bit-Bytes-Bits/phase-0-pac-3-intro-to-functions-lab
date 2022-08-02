@@ -31,9 +31,10 @@ function sayHiToHeadphonedRoommate(string) {
         return "YES INDEED!"
     }
      if(string === "Let's have dinner together!"){
+        console.log("I would love to!")
         return "I would love to!"
     }
     
 }
 
-sayHiToHeadphonedRoommate("Let's have dinner.");
+sayHiToHeadphonedRoommate("Let's have dinner together!");
